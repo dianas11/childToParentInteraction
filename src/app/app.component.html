@@ -1,0 +1,4 @@
+<h1>Parent Component</h1>
+
+<!-- last step is to bind to our custom event. When greetEvent(custom event) is recieved by the parent let's call the greet() -->
+<app-child (greetEvent)="greet($event)"></app-child>
